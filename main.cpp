@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+
 using namespace std;
 
 void displayMenu()
@@ -49,14 +50,6 @@ double K2C(double tempK) {
     double tempC = tempK - 273.15;
     return tempC;
 }
-
-
-
-
-
-
-
-
 
 int main() {
     
